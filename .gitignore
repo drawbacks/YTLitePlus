@@ -5,3 +5,4 @@ tmp/
 Tweaks/YTLite/*
 !Tweaks/YTLite/.gitkeep
 Resources/
+*.ipa
