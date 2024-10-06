@@ -81,30 +81,28 @@
 
 4. **YTABConfig**: Adds a new section named "A/B" in the YouTube app settings where all features can be toggled freely by the user.
 
-5. **DontEatMyContent**: Prevents the notch/Dynamic Island from covering 2:1 video content in YouTube.
+5. **Return YouTube Dislikes**: Brings back Dislike counts under YouTube videos using ReturnYoutubeDislike's API.
 
-6. **Return YouTube Dislikes**: Brings back Dislike counts under YouTube videos using ReturnYoutubeDislike's API.
+6. **YouRememberCaption**: Makes YouTube remember your video caption setting.
 
-7. **YouRememberCaption**: Makes YouTube remember your video caption setting.
+7. **YTNoTracking**: An iOS YouTube Tweak that disables Tracking Parameters in the YouTube App.
 
-8. **YTNoTracking**: An iOS YouTube Tweak that disables Tracking Parameters in the YouTube App.
+8. **YTNoCheckLocalNetWor**k: Blocks the Local Network permission popup in YouTube.
 
-9. **YTNoCheckLocalNetWor**k: Blocks the Local Network permission popup in YouTube.
+9. **BigYTMiniPlayer**: Jailbreak tweak that makes the miniplayer in youtube easier to see.
 
-10. **BigYTMiniPlayer**: Jailbreak tweak that makes the miniplayer in youtube easier to see. 
+10. **YTVideoOverlay**: A helper tweak that adds buttons on the YouTube video overlay.
 
-11. **YTVideoOverlay**: A helper tweak that adds buttons on the YouTube video overlay.
+11. **YTNoModernUI**: This tweak changes and removes some newer UI elements from the YouTube app such as some rounded buttons, old progress bar, and old buffer bar.
 
-12. **YTNoModernUI**: This tweak changes and removes some newer UI elements from the YouTube app such as some rounded buttons, old progress bar, and old buffer bar.
+12. **OLEDDarkmode**: Replace official Youtube darkmode with a true OLED darkmode.
 
-13. **OLEDDarkmode**: Replace official Youtube darkmode with a true OLED darkmode.
+13. **OLDDarkmode**: Replace new official Youtube darkmode with old (grey) Youtube darkmode.
 
-14. **OLDDarkmode**: Replace new official Youtube darkmode with old (grey) Youtube darkmode.
-
-15. **LowContrastMode**: Makes the UI interface look dimmer to make it easier on the eyes. (App Compatibility: v17.33.2-v17.38.10)
+14. **LowContrastMode**: Makes the UI interface look dimmer to make it easier on the eyes. (App Compatibility: v17.33.2-v17.38.10)
 
 # AltStore
-  
+
 <a href="https://tinyurl.com/YTLiteAltstore"><img src="https://raw.githubusercontent.com/YTLitePlus/Assets/main/Github/Buttons/Altstore/Altstore.png" width="200"></a>
 &nbsp;
 

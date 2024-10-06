@@ -4,9 +4,6 @@
 [submodule "Tweaks/FLEX"]
 	path = Tweaks/FLEX
 	url = https://github.com/PoomSmart/FLEXing.git
-[submodule "Tweaks/DontEatMyContent"]
-	path = Tweaks/DontEatMyContent
-	url = https://github.com/therealFoxster/DontEatMyContent.git
 [submodule "Extensions"]
 	path = Extensions
 	url = https://github.com/BillyCurtis/OpenYouTubeSafariExtension.git
