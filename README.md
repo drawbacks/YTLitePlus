@@ -83,7 +83,7 @@
 
 5. **YouMute**: Allows users to mute/unmute videos directly in the YouTube Video Player.
 
-6. **DontEatMyContent**: Prevents the notch/Dynamic Island from covering 2:1 video content in YouTube.
+6. ~~**DontEatMyContent**: Prevents the notch/Dynamic Island from covering 2:1 video content in YouTube.~~
 
 7. **Return YouTube Dislikes**: Brings back Dislike counts under YouTube videos using ReturnYoutubeDislike's API.
 
