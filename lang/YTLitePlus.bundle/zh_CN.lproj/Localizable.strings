@@ -168,9 +168,6 @@
 "VIDEO_PLAYER_BUTTON" = "视频播放器按钮";
 "VIDEO_PLAYER_BUTTON_DESC" = "在导航栏中显示按钮，以便在系统自带播放器中打开已下载的视频";
 
-"HIDE_SPONSORBLOCK_BUTTON" = "隐藏导航栏中的 iSponsorBlock 按钮";
-"HIDE_SPONSORBLOCK_BUTTON_DESC" = "";
-
 "HIDE_HOME_TAB" = "隐藏首页标签栏";
 "HIDE_HOME_TAB_DESC" = "隐藏所有标签栏时请小心";
 

@@ -168,9 +168,6 @@
 "VIDEO_PLAYER_BUTTON" = "Nút Trình phát video";
 "VIDEO_PLAYER_BUTTON_DESC" = "Hiển thị nút trong thanh điều hướng để mở video đã tải xuống trong trình phát Apple";
 
-"HIDE_SPONSORBLOCK_BUTTON" = "Ẩn nút iSponsorBlock";
-"HIDE_SPONSORBLOCK_BUTTON_DESC" = "Ẩn cài đặt iSponsorBlock trên thanh điều hướng";
-
 "HIDE_HOME_TAB" = "Ẩn tab Trang chủ";
 "HIDE_HOME_TAB_DESC" = "Hãy cẩn thận khi ẩn tất cả các tab";
 

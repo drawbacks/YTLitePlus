@@ -168,9 +168,6 @@
 "VIDEO_PLAYER_BUTTON" = "Botón del reproductor de vídeo";
 "VIDEO_PLAYER_BUTTON_DESC" = "Mostrar un botón en la barra de navegación para abrir vídeo descargados en el reproductor de Apple";
 
-"HIDE_SPONSORBLOCK_BUTTON" = "Ocultar el botón iSponsorBlock en la barra de navegación";
-"HIDE_SPONSORBLOCK_BUTTON_DESC" = "";
-
 "HIDE_HOME_TAB" = "Ocultar pestaña Inicio";
 "HIDE_HOME_TAB_DESC" = "Cuidado al ocultar todas las pestañas";
 

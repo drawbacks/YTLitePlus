@@ -168,9 +168,6 @@
 "VIDEO_PLAYER_BUTTON" = "Video Player Button";
 "VIDEO_PLAYER_BUTTON_DESC" = "Show a button in the navigation bar to open downloaded videos in the Apple player";
 
-"HIDE_SPONSORBLOCK_BUTTON" = "Ascundere buton iSponsorBlock în bara de navigație";
-"HIDE_SPONSORBLOCK_BUTTON_DESC" = "";
-
 "HIDE_HOME_TAB" = "Hide Home Tab";
 "HIDE_HOME_TAB_DESC" = "Be careful when hiding all tabs";
 
