@@ -168,9 +168,6 @@
 "VIDEO_PLAYER_BUTTON" = "Video Oynatıcı Butonu";
 "VIDEO_PLAYER_BUTTON_DESC" = "İndirilen videoları Apple oynatıcısında açmak için gezinme çubuğunda bir buton göster";
 
-"HIDE_SPONSORBLOCK_BUTTON" = "Gezinme çubuğunda iSponsorBlock düğmesini gizle";
-"HIDE_SPONSORBLOCK_BUTTON_DESC" = "";
-
 "HIDE_HOME_TAB" = "Ana Sekmeyi Gizle";
 "HIDE_HOME_TAB_DESC" = "Tüm sekmeleri gizlerken dikkatli olun";
 

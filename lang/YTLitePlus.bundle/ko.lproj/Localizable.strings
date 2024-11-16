@@ -168,9 +168,6 @@
 "VIDEO_PLAYER_BUTTON" = "동영상 플레이어 버튼";
 "VIDEO_PLAYER_BUTTON_DESC" = "다운로드한 동영상를 Apple 기본 플레이어에서 열 수 있는 버튼을 네비게이션 바에 표시합니다.";
 
-"HIDE_SPONSORBLOCK_BUTTON" = "네비게이션 바에서 iSponsorBlock 버튼 숨기기";
-"HIDE_SPONSORBLOCK_BUTTON_DESC" = "";
-
 "HIDE_HOME_TAB" = "홈 탭 숨기기";
 "HIDE_HOME_TAB_DESC" = "모든 탭을 숨길 때는 주의하세요";
 
