@@ -87,7 +87,7 @@
 
 7. **Return YouTube Dislikes**: Brings back Dislike counts under YouTube videos using ReturnYoutubeDislike's API.
 
-8. **iSponsorBlock**: Skips annoying sponsor ads inside YouTube videos.
+8. ~~**iSponsorBlock**: Skips annoying sponsor ads inside YouTube videos.~~
 
 9. **YouRememberCaption**: Makes YouTube remember your video caption setting.
 
