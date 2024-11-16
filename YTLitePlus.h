@@ -190,13 +190,8 @@ typedef NS_ENUM(NSUInteger, GestureSection) {
 @property (nonatomic, assign, readwrite) YTQTMButton *watchCollapseButton;
 @end
 
-// SponsorBlock button in Nav bar
-@interface MDCButton : UIButton
-@end
-
 @interface YTRightNavigationButtons (YTLitePlus)
 @property YTQTMButton *notificationButton;
-@property YTQTMButton *sponsorBlockButton;
 @property YTQTMButton *videoPlayerButton;
 @end
 
@@ -272,12 +267,6 @@ typedef NS_ENUM(NSUInteger, GestureSection) {
 @end
 
 @interface YTCommentDetailHeaderCell : UIView
-@end
-
-@interface SponsorBlockSettingsController : UITableViewController 
-@end
-
-@interface SponsorBlockViewController : UIViewController
 @end
 
 @interface UICandidateViewController : UIViewController
