@@ -650,7 +650,6 @@ static const NSInteger YTLiteSection = 789;
             BASIC_SWITCH(LOC(@"NEW_MINIPLAYER_STYLE"), LOC(@"NEW_MINIPLAYER_STYLE_DESC"), @"bigYTMiniPlayer_enabled"),
             BASIC_SWITCH(LOC(@"HIDE_CAST_BUTTON"), LOC(@"HIDE_CAST_BUTTON_DESC"), @"hideCastButton_enabled"),
             BASIC_SWITCH(LOC(@"VIDEO_PLAYER_BUTTON"), LOC(@"VIDEO_PLAYER_BUTTON_DESC"), @"videoPlayerButton_enabled"),
-            BASIC_SWITCH(LOC(@"HIDE_SPONSORBLOCK_BUTTON"), LOC(@"HIDE_SPONSORBLOCK_BUTTON_DESC"), @"hideSponsorBlockButton_enabled"),
             BASIC_SWITCH(LOC(@"HIDE_HOME_TAB"), LOC(@"HIDE_HOME_TAB_DESC"), @"hideHomeTab_enabled"),
             BASIC_SWITCH(LOC(@"FIX_CASTING"), LOC(@"FIX_CASTING_DESC"), @"fixCasting_enabled"),
             BASIC_SWITCH(LOC(@"REPLACE_COPY_AND_PASTE_BUTTONS"), LOC(@"REPLACE_COPY_AND_PASTE_BUTTONS_DESC"), @"switchCopyandPasteFunctionality_enabled"),

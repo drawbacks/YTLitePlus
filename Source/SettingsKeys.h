@@ -15,7 +15,7 @@ NSArray *NSUserDefaultsCopyKeys = @[
     @"enableVersionSpoofer_enabled", @"fixCasting_enabled", @"flex_enabled", @"fullscreenToTheRight_enabled",
     @"hideAutoplayMiniPreview_enabled", @"hideCastButton_enabled", @"hideHUD_enabled", @"hideHeatwaves_enabled",
     @"hideHomeTab_enabled", @"hidePreviewCommentSection_enabled", @"hideRightPanel_enabled",
-    @"hideSpeedToast_enabled", @"hideSponsorBlockButton_enabled", @"hideVideoPlayerShadowOverlayButtons_enabled",
+    @"hideSpeedToast_enabled", @"hideVideoPlayerShadowOverlayButtons_enabled",
     @"iPadLayout_enabled", @"iPhoneLayout_enabled", @"inline_muted_playback_enabled", @"lowContrastMode_enabled",
     @"newSettingsUI_enabled", @"oledKeyBoard_enabled", @"playerGesturesHapticFeedback_enabled",
     @"playerGestures_enabled", @"seekAnywhere_enabled", @"switchCopyandPasteFunctionality_enabled",
