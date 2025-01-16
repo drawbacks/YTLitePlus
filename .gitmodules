@@ -9,7 +9,7 @@
 	url = https://github.com/CokePokes/YoutubeExtensions.git
 [submodule "Tweaks/YTVideoOverlay"]
 	path = Tweaks/YTVideoOverlay
-	url = https://github.com/aricloverEXALT/YTVideoOverlayPlus.git
+	url = https://github.com/PoomSmart/YTVideoOverlay.git
 [submodule "Tweaks/protobuf"]
 	path = Tweaks/protobuf
 	url = https://github.com/protocolbuffers/protobuf.git
@@ -37,9 +37,6 @@
 [submodule "Tweaks/Return-YouTube-Dislikes"]
 	path = Tweaks/Return-YouTube-Dislikes
 	url = https://github.com/arichornloverALT/Return-YouTube-Dislikes.git
-[submodule "Tweaks/YTHeaders"]
-	path = Tweaks/YTHeaders
-	url = https://github.com/therealFoxster/YTHeaders
 [submodule "Tweaks/YouTimeStamp"]
 	path = Tweaks/YouTimeStamp
 	url = https://github.com/arichornloverALT/YouTimeStamp.git
