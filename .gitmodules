@@ -1,9 +1,6 @@
 [submodule "Tweaks/PSHeader"]
 	path = Tweaks/PSHeader
 	url = https://github.com/PoomSmart/PSHeader.git
-[submodule "Tweaks/FLEX"]
-	path = Tweaks/FLEX
-	url = https://github.com/qnblackcat/FLEX-Classes.git
 [submodule "Tweaks/YTHoldForSpeed"]
 	path = Tweaks/YTHoldForSpeed
 	url = https://github.com/arichornloverALT/YTHoldForSpeed.git
@@ -12,7 +9,7 @@
 	url = https://github.com/CokePokes/YoutubeExtensions.git
 [submodule "Tweaks/YTVideoOverlay"]
 	path = Tweaks/YTVideoOverlay
-	url = https://github.com/PoomSmart/YTVideoOverlay.git
+	url = https://github.com/aricloverEXALT/YTVideoOverlayPlus.git
 [submodule "Tweaks/protobuf"]
 	path = Tweaks/protobuf
 	url = https://github.com/protocolbuffers/protobuf.git
