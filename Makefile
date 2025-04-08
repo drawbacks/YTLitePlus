@@ -40,10 +40,7 @@ REMOVE_EXTENSIONS = 1
 CODESIGN_IPA = 0
 
 YTLITE_PATH = Tweaks/YTLite
-YTLITE_VERSION ?= $(shell curl -s https://api.github.com/repos/dayanch96/YTLite/releases/latest | grep '"tag_name"' | sed 's/.*"v\(.*\)".*/\1/')
-ifeq ($(YTLITE_VERSION),)
-$(error Failed to fetch latest YTLite version from GitHub API)
-endif
+YTLITE_VERSION := 5.2b1
 YTLITE_DEB = $(YTLITE_PATH)/com.dvntm.ytlite_$(YTLITE_VERSION)_iphoneos-arm64.deb
 YTLITE_DYLIB = $(YTLITE_PATH)/var/jb/Library/MobileSubstrate/DynamicLibraries/YTLite.dylib
 YTLITE_BUNDLE = $(YTLITE_PATH)/var/jb/Library/Application\ Support/YTLite.bundle
@@ -66,6 +63,8 @@ before-all::
 		if [[ ! -f $(YTLITE_DYLIB) || ! -d $(YTLITE_BUNDLE) ]]; then \
 			$(PRINT_FORMAT_ERROR) "Failed to extract YTLite"; exit 1; \
 		fi; \
+		$(PRINT_FORMAT_BLUE) "\"Fixing\" YTLite..."; \
+		python ytlite-replace-dylibs.py; \
 	fi;
 else
 before-package::
