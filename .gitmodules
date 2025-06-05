@@ -1,9 +1,6 @@
 [submodule "Tweaks/PSHeader"]
 	path = Tweaks/PSHeader
 	url = https://github.com/PoomSmart/PSHeader.git
-[submodule "Tweaks/FLEX"]
-	path = Tweaks/FLEX
-	url = https://github.com/PoomSmart/FLEXing.git
 [submodule "Extensions"]
 	path = Extensions
 	url = https://github.com/BillyCurtis/OpenYouTubeSafariExtension.git
@@ -37,7 +34,3 @@
 [submodule "Tweaks/YouTimeStamp"]
 	path = Tweaks/YouTimeStamp
 	url = https://github.com/aricloverALT/YouTimeStamp.git
-[submodule "Tweaks/FLEXing"]
-	path = Tweaks/FLEXing
-	url = https://github.com/PoomSmart/FLEXing.git
-	branch = rootless

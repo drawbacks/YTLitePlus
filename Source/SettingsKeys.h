@@ -12,7 +12,7 @@ NSArray *NSUserDefaultsCopyKeys = @[
     @"disablePrivacySection_enabled", @"disablePullToFull_enabled", @"disableRemainingTime_enabled",
     @"disableTryNewFeaturesSection_enabled", @"disableVideoQualityPreferencesSection_enabled",
     @"disableYourDataInYouTubeSection_enabled", @"enableSaveToButton_enabled", @"enableShareButton_enabled",
-    @"enableVersionSpoofer_enabled", @"fixCasting_enabled", @"flex_enabled", @"fullscreenToTheRight_enabled",
+    @"enableVersionSpoofer_enabled", @"fixCasting_enabled", @"fullscreenToTheRight_enabled",
     @"hideAutoplayMiniPreview_enabled", @"hideCastButton_enabled", @"hideHUD_enabled", @"hideHeatwaves_enabled",
     @"hideHomeTab_enabled", @"hidePreviewCommentSection_enabled", @"hideRightPanel_enabled",
     @"hideSpeedToast_enabled", @"hideVideoPlayerShadowOverlayButtons_enabled",
