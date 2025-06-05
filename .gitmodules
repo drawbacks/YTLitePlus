@@ -1,9 +1,6 @@
 [submodule "Tweaks/PSHeader"]
 	path = Tweaks/PSHeader
 	url = https://github.com/PoomSmart/PSHeader.git
-[submodule "Tweaks/FLEX"]
-	path = Tweaks/FLEX
-	url = https://github.com/PoomSmart/FLEXing.git
 [submodule "Tweaks/YTHoldForSpeed"]
 	path = Tweaks/YTHoldForSpeed
 	url = https://github.com/aricloverALT/YTHoldForSpeed.git
@@ -49,10 +46,6 @@
 [submodule "Tweaks/YouLoop"]
 	path = Tweaks/YouLoop
 	url = https://github.com/bhackel/YouLoop
-[submodule "Tweaks/FLEXing"]
-	path = Tweaks/FLEXing
-	url = https://github.com/PoomSmart/FLEXing.git
-	branch = rootless
 [submodule "Tweaks/YouSpeed"]
 	path = Tweaks/YouSpeed
 	url = https://github.com/PoomSmart/YouSpeed
