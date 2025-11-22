@@ -11,7 +11,10 @@ export DEBUGFLAG = -ggdb -Wno-unused-command-line-argument -L$(THEOS_OBJ_DIR) -F
 MODULES = jailed
 endif
 PACKAGE_NAME = YTLitePlus
-PACKAGE_VERSION = X.X.X-X.X
+
+YTLITE_VERSION = 5.2b3
+YOUTUBE_VERSION = $(shell unzip -p $(IPA) "Payload/*/Info.plist" | plutil -extract CFBundleShortVersionString raw -o - -)
+PACKAGE_VERSION = $(YOUTUBE_VERSION)-$(YTLITE_VERSION)
 
 INSTALL_TARGET_PROCESSES = YouTube
 TWEAK_NAME = YTLitePlus
@@ -40,7 +43,6 @@ REMOVE_EXTENSIONS = 1
 CODESIGN_IPA = 0
 
 YTLITE_PATH = Tweaks/YTLite
-YTLITE_VERSION := 5.2b3
 YTLITE_DEB = $(YTLITE_PATH)/com.dvntm.ytlite_$(YTLITE_VERSION)_iphoneos-arm64.deb
 YTLITE_DYLIB = $(YTLITE_PATH)/var/jb/Library/MobileSubstrate/DynamicLibraries/YTLite.dylib
 YTLITE_BUNDLE = $(YTLITE_PATH)/var/jb/Library/Application\ Support/YTLite.bundle
