@@ -12,7 +12,7 @@ MODULES = jailed
 endif
 PACKAGE_NAME = YTLitePlus
 
-YTLITE_VERSION = 5.2b3
+YTLITE_VERSION = 5.2b4
 YOUTUBE_VERSION = $(shell unzip -p $(IPA) "Payload/*/Info.plist" | plutil -extract CFBundleShortVersionString raw -o - -)
 PACKAGE_VERSION = $(YOUTUBE_VERSION)-$(YTLITE_VERSION)
 
@@ -23,7 +23,7 @@ BUNDLE_ID = com.google.ios.youtube
 
 YTLitePlus_FILES = YTLitePlus.xm $(shell find Source -name '*.xm' -o -name '*.x' -o -name '*.m')
 YTLitePlus_FRAMEWORKS = UIKit Security
-YTLitePlus_INJECT_DYLIBS = Tweaks/YTLite/var/jb/Library/MobileSubstrate/DynamicLibraries/YTLite.dylib .theos/obj/YTUHD.dylib .theos/obj/YouPiP.dylib .theos/obj/YouTubeDislikesReturn.dylib .theos/obj/YTABConfig.dylib .theos/obj/YTHoldForSpeed.dylib .theos/obj/YTVideoOverlay.dylib .theos/obj/YouLoop.dylib .theos/obj/YouMute.dylib .theos/obj/YouQuality.dylib .theos/obj/YouSpeed.dylib .theos/obj/YouTimeStamp.dylib .theos/obj/YouGroupSettings.dylib
+YTLitePlus_INJECT_DYLIBS = Tweaks/YTLite/var/jb/Library/MobileSubstrate/DynamicLibraries/YTLite.dylib Tweaks/YTLPlaybackRateFix/YTLPlaybackRateFix.dylib .theos/obj/YTUHD.dylib .theos/obj/YouPiP.dylib .theos/obj/YouTubeDislikesReturn.dylib .theos/obj/YTABConfig.dylib .theos/obj/YTHoldForSpeed.dylib .theos/obj/YTVideoOverlay.dylib .theos/obj/YouLoop.dylib .theos/obj/YouMute.dylib .theos/obj/YouQuality.dylib .theos/obj/YouSpeed.dylib .theos/obj/YouTimeStamp.dylib .theos/obj/YouGroupSettings.dylib
 YTLitePlus_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-unused-but-set-variable -DTWEAK_VERSION=\"$(PACKAGE_VERSION)\"
 YTLitePlus_EMBED_BUNDLES = $(wildcard Bundles/*.bundle)
 YTLitePlus_EMBED_EXTENSIONS = $(wildcard Extensions/*.appex)
