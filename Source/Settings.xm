@@ -53,7 +53,7 @@ extern NSBundle *YTLitePlusBundle();
 
 // Add both YTLite and YTLitePlus to YouGroupSettings
 static const NSInteger YTLitePlusSection = 788;
-static const NSInteger YTLiteSection = 789;
+// static const NSInteger YTLiteSection = 789;
 %hook YTSettingsGroupData
 + (NSMutableArray <NSNumber *> *)tweaks {
     NSMutableArray <NSNumber *> *originalTweaks = %orig;
@@ -61,7 +61,7 @@ static const NSInteger YTLiteSection = 789;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         [originalTweaks addObject:@(YTLitePlusSection)];
-        [originalTweaks addObject:@(YTLiteSection)];
+        // [originalTweaks addObject:@(YTLiteSection)];
     });
 
     return originalTweaks;
@@ -98,7 +98,7 @@ static const NSInteger YTLiteSection = 789;
     YTSettingsViewController *settingsViewController = [self valueForKey:@"_settingsViewControllerDelegate"];
 
     // Add item for going to the YTLitePlus GitHub page
-    YTSettingsSectionItem *main = [%c(YTSettingsSectionItem)
+    YTSettingsSectionItem *main = [YTSettingsSectionItemClass
         itemWithTitle:[NSString stringWithFormat:LOC(@"VERSION"), @(OS_STRINGIFY(TWEAK_VERSION))]
         titleDescription:LOC(@"VERSION_CHECK")
         accessibilityIdentifier:nil
@@ -109,7 +109,7 @@ static const NSInteger YTLiteSection = 789;
     [sectionItems addObject:main];
 
 # pragma mark - Copy and Paste Settings
-    YTSettingsSectionItem *copySettings = [%c(YTSettingsSectionItem)
+    YTSettingsSectionItem *copySettings = [YTSettingsSectionItemClass
         itemWithTitle:IS_ENABLED(@"switchCopyandPasteFunctionality_enabled") ? LOC(@"EXPORT_SETTINGS") : LOC(@"COPY_SETTINGS")
         titleDescription:IS_ENABLED(@"switchCopyandPasteFunctionality_enabled") ? LOC(@"EXPORT_SETTINGS_DESC") : LOC(@"COPY_SETTINGS_DESC")
         accessibilityIdentifier:nil
@@ -170,7 +170,7 @@ static const NSInteger YTLiteSection = 789;
     ];
     [sectionItems addObject:copySettings];
 
-    YTSettingsSectionItem *pasteSettings = [%c(YTSettingsSectionItem)
+    YTSettingsSectionItem *pasteSettings = [YTSettingsSectionItemClass
         itemWithTitle:IS_ENABLED(@"switchCopyandPasteFunctionality_enabled") ? LOC(@"IMPORT_SETTINGS") : LOC(@"PASTE_SETTINGS")
         titleDescription:IS_ENABLED(@"switchCopyandPasteFunctionality_enabled") ? LOC(@"IMPORT_SETTINGS_DESC") : LOC(@"PASTE_SETTINGS_DESC")
         accessibilityIdentifier:nil
@@ -218,7 +218,7 @@ static const NSInteger YTLiteSection = 789;
     [sectionItems addObject:pasteSettings];
 
 /*
-    YTSettingsSectionItem *appIcon = [%c(YTSettingsSectionItem)
+    YTSettingsSectionItem *appIcon = [YTSettingsSectionItemClass
         itemWithTitle:LOC(@"CHANGE_APP_ICON")
         titleDescription:nil
         accessibilityIdentifier:nil
