@@ -190,10 +190,6 @@ typedef NS_ENUM(NSUInteger, GestureSection) {
 @property (nonatomic, assign, readwrite) YTQTMButton *watchCollapseButton;
 @end
 
-// SponsorBlock button in Nav bar - removed (now built into YTLite v5.x)
-@interface MDCButton : UIButton
-@end
-
 @interface YTRightNavigationButtons (YTLitePlus)
 @property YTQTMButton *notificationButton;
 @property YTQTMButton *videoPlayerButton;
