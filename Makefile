@@ -12,7 +12,14 @@ MODULES = jailed
 endif
 PACKAGE_NAME = YTLitePlus
 
+YTLITE_VERSION ?= $(shell curl -s https://api.github.com/repos/dayanch96/YTLite/releases/latest | grep '"tag_name"' | sed 's/.*"v\(.*\)".*/\1/')
+ifeq ($(YTLITE_VERSION),)
 YTLITE_VERSION = 5.2b4
+$(info Failed to fetch latest YTLite version from GitHub API! Using YTLite $(YTLITE_VERSION))
+else
+$(info Using YTLite $(YTLITE_VERSION) (latest))
+endif
+
 YOUTUBE_VERSION = $(shell unzip -p $(IPA) "Payload/*/Info.plist" | plutil -extract CFBundleShortVersionString raw -o - -)
 PACKAGE_VERSION = $(YOUTUBE_VERSION)-$(YTLITE_VERSION)
 
