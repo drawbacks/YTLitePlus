@@ -1,9 +1,6 @@
 [submodule "Tweaks/PSHeader"]
 	path = Tweaks/PSHeader
 	url = https://github.com/PoomSmart/PSHeader.git
-[submodule "Extensions"]
-	path = Extensions
-	url = https://github.com/BillyCurtis/OpenYouTubeSafariExtension.git
 [submodule "Tweaks/YTVideoOverlay"]
 	path = Tweaks/YTVideoOverlay
 	url = https://github.com/PoomSmart/YTVideoOverlay.git
